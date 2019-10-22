@@ -1,0 +1,27 @@
+extends layout
+
+block header
+    include header
+
+block content
+ 
+ div.row
+  div.col-lg-6.portfolio-item
+    div.card.h-100
+      a(href='#')
+        img.card-img-top.img-fluid.mb-3.mb-md-0(src='images/web.png', alt='')
+      div.card-body
+        h4.card-title
+          a(href='#') Web Development Service
+        p.card-text ..
+  div.col-lg-6.portfolio-item
+    div.card.h-100
+      a(href='#')
+        img.card-img-top.img-fluid.mb-3.mb-md-0(src='images/mobile2.png', alt='')
+      div.card-body
+        h4.card-title
+          a(href='#') Mobile Development Service
+        p.card-text ..
+
+block footer
+    include footer
