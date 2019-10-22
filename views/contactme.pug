@@ -4,7 +4,42 @@ block header
     include header
 
 block content
+ br
+ div.row
+  
+  div.col-lg-4.mb-4
+   h3  Contact Details 
+   img.img-fluid.rounded.mb-4.rad(src='images/photo.JPG', alt='')
+   p  
+   a.fa.fa-facebook(href='https://www.facebook.com/avicii/') 
+   | 
+   a.fa.fa-twitter(href='https://twitter.com/avicii')
+   | 
+   a.fa.fa-instagram(href='https://www.instagram.com/avicii/?hl=en')
 
+  div.col-lg-8.mb-4
+    h3 Send me a Message
+    form#contactForm(name='sentMessage', novalidate='')
+      div.control-group.form-group
+        div.controls
+          label Full Name:
+          input#name.form-control(type='text', required='', data-validation-required-message='Please enter your name.')
+          p.help-block
+      div.control-group.form-group
+        div.controls
+          label Phone Number:
+          input#phone.form-control(type='tel', required='', data-validation-required-message='Please enter your phone number.')
+      div.control-group.form-group
+        div.controls
+          label Email Address:
+          input#email.form-control(type='email', required='', data-validation-required-message='Please enter your email address.')
+      div.control-group.form-group
+        div.controls
+          label Message:
+          textarea#message.form-control(rows='10', cols='100', required='', data-validation-required-message='Please enter your message', maxlength='999', style='resize:none')
+      
+      button#sendMessageButton.btn.btn-primary(type='submit') Send Message
+ // /.row
 
 block footer
     include footer
