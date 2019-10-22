@@ -30,15 +30,35 @@
     <DebugSymbols>true</DebugSymbols>
   </PropertyGroup>
   <ItemGroup>
+    <Content Include="public\images\facebook.jpg" />
+    <Content Include="public\images\mobile.png" />
+    <Content Include="public\images\mobile2.png" />
+    <Content Include="public\images\web.png" />
+    <Content Include="public\images\yahoo.jpg" />
+    <Content Include="public\stylesheets\bootstrap.css" />
+    <Content Include="public\stylesheets\bootstrap.css.map" />
+    <Content Include="public\stylesheets\bootstrap.min.css" />
+    <Content Include="public\stylesheets\bootstrap.min.css.map" />
+    <Content Include="public\stylesheets\main.css" />
     <None Include="app.ts" />
     <None Include="routes\index.ts" />
     <None Include="routes\user.ts" />
     <Content Include="tsconfig.json" />
     <Content Include="package.json" />
-    <Content Include="public\stylesheets\main.css" />
     <Content Include="README.md" />
+    <Content Include="views\aboutme.pug" />
+    <Content Include="views\contactme.pug" />
+    <Content Include="views\header.pug" />
+    <Content Include="views\footer.pug" />
+    <Content Include="views\layout.pug">
+      <SubType>Code</SubType>
+    </Content>
+    <Content Include="views\layout3.pug">
+      <SubType>Code</SubType>
+    </Content>
+    <Content Include="views\services.pug" />
+    <Content Include="views\projects.pug" />
     <Content Include="views\index.pug" />
-    <Content Include="views\layout.pug" />
     <Content Include="views\error.pug" />
   </ItemGroup>
   <ItemGroup>

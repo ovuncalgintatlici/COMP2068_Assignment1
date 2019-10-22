@@ -1,0 +1,7 @@
+C:\Users\OVUNC ALGIN TATLICI\Desktop\Fall 2019\JS Frameworks\Assignment\Assignment1\obj\Debug\Assignment1.njsprojAssemblyReference.cache
+C:\Users\OVUNC ALGIN TATLICI\Desktop\Fall 2019\JS Frameworks\Assignment\Assignment1\bin\Microsoft.NodejsTools.WebRole.dll
+C:\Users\anil.buldu\Desktop\External\JS Fw\Assignment1\Assignment1\obj\Debug\Assignment1.njsprojAssemblyReference.cache
+C:\Users\anil.buldu\Desktop\External\JS Fw\Assignment1\Assignment1\obj\Debug\Assignment1.njsproj.CoreCompileInputs.cache
+C:\Users\anil.buldu\Desktop\External\JS Fw\Assignment1\Assignment1\bin\Microsoft.NodejsTools.WebRole.dll
+C:\Users\OVUNC ALGIN TATLICI\Desktop\Fall 2019\JS Frameworks\Assignment1\obj\Debug\Assignment1.njsprojAssemblyReference.cache
+C:\Users\OVUNC ALGIN TATLICI\Desktop\Fall 2019\JS Frameworks\Assignment1\bin\Microsoft.NodejsTools.WebRole.dll

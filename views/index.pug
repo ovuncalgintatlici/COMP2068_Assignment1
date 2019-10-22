@@ -1,5 +1,22 @@
 extends layout
 
+block header
+    include header
 block content
-  h1= title
-  p Welcome to #{title}
+  div.container
+   div.jumbotron
+    h1.display-4 Ovunc Algin Tatlici
+    p.lead
+      | Computer Programmer Analyst Student 
+      br
+      |         @ Georgian College
+    hr.my-4
+    p  
+    a.fa.fa-facebook(href='https://www.facebook.com/avicii/') 
+    | 
+    a.fa.fa-twitter(href='https://twitter.com/avicii')
+    | 
+    a.fa.fa-instagram(href='https://www.instagram.com/avicii/?hl=en')
+
+block footer
+    include footer
